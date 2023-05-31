@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/erke31-2/frontend-mentor-countries-api)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://stupendous-croquembouche-65ec87.netlify.app/))
+- Solution URL: [https://github.com/erke31-2/frontend-mentor-countries-api]
+- Live Site URL: [https://stupendous-croquembouche-65ec87.netlify.app/]
 
 ## My process
 
