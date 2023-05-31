@@ -43,6 +43,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- React-icons
 - [React-Router](https://reactrouter.com/en/main) - Declarative routing for react web app
 - [TailwindCss](https://tailwindcss.com/) -Utility Css Framework
 
