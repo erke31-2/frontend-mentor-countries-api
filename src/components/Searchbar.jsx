@@ -14,7 +14,7 @@ const Searchbar = ({ searchQuery, setSearchQuery }) => {
         type="text"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="bg-transparent focus:outline-none"
+        className="bg-transparent focus:outline-none w-full"
         placeholder="Search for a country..."
       />
     </div>
