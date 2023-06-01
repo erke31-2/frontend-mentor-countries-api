@@ -3,8 +3,8 @@ import {FaArrowLeft} from "react-icons/fa"
 import data from "../data/data.json";
 
 const Details = () => {
-  const { name } = useParams();
-  const c = data.find((d) => d.name === name);
+  const { code } = useParams();
+  const c = data.find((d) => d.alpha2Code === code);
 
   const borderCountryNames = c?.borders
     ?.map((bCode) => {
