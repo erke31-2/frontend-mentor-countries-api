@@ -16,7 +16,7 @@ const Details = () => {
   return (
     <section className="px-8 mx-auto max-w-[500px] lg:max-w-[1240px] lg:px-7 font-Nunito800 dark:text-White text-DarkBlueLight">
       <button className="my-14 px-6 py-2 rounded-md dark:bg-DarkBlue text-sm shadow-xl shadow-black/40 bg-White">
-        <Link to="/" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2 w-full h-[100%]">
           <FaArrowLeft />
           Back
         </Link>
