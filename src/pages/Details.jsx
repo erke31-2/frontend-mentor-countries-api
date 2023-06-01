@@ -9,7 +9,7 @@ const Details = () => {
   const borderCountryNames = c?.borders
     ?.map((bCode) => {
       const borderCountry = data.find((d) => d.alpha3Code === bCode);
-      return borderCountry ? borderCountry.name : "";
+      return borderCountry ? borderCountry : "";
     })
     .slice(0, 3);
 
@@ -72,9 +72,9 @@ const Details = () => {
                 {borderCountryNames.map((b) => (
                   <li
                     className="rounded-md text-center flex justify-center items-center w-1/3 py-2 dark:bg-DarkBlue shadow-2xl shadow-black/80 bg-White lg:px-4"
-                    key={b}
+                    key={b.name}
                   >
-                    <Link to={`/countries/${b}`}>{b}</Link>
+                    <Link to={`/countries/${b.alpha2Code}`}>{b.name}</Link>
                   </li>
                 ))}
               </ul>
