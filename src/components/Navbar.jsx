@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between px-6 py-4 max-w-[1240px] mx-auto font-Nunito800 dark:text-White text-DarkBlueLight">
       <Link to="/">
-        <h2 className="text-xl font-extrabold">Where in the world?</h2>
+        <h1 className="text-xl font-extrabold">Where in the world?</h1>
       </Link>
 
       <button className="flex items-center gap-1" onClick={toggleMode}>
