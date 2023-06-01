@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const CountryCard = ({c}) => {
   return (
     <Link
-      to={`countries/${c.name.toString()}`}
+      to={`countries/${c.alpha2Code.toString()}`}
       className="rounded-xl h-[480px] cursor-pointer mx-auto w-[320px] shadow-2xl shadow-black/40"
       key={c.name}
     >
